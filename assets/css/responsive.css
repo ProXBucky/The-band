@@ -1,0 +1,102 @@
+@media  (max-width:740px) {
+    #header{
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav li {
+        display: block;
+    }
+
+    #nav li a{
+        padding: 2px 24px;
+    }
+
+    #nav .subnav{
+        position: inherit;
+        color: white;
+        background-color: black;
+        height: auto;
+    }
+
+    #nav .subnav a {
+        color: white;
+        background-color: black;
+        padding: 10px 44px;
+        line-height: 35px;
+        width: 100%;
+    }
+
+    #content .mobile-item{
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    #content .about-text{
+        margin: 15px 0px;
+    }
+
+    #content .content-section {
+        padding: 64px 16px;
+    }
+
+    .contact-content .contact-form, .contact-content .contact-infor{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .contact-content .contact-infor{
+        font-size: 18px;
+    }
+
+    .places-list .mobile-full-col{
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .tour-section .ticket-list {
+        margin-top: 40px;
+        margin-bottom: 16px;
+    }
+   
+    .contact-form .form-items{
+        width: 100%;
+    }
+
+}
+
+@media (max-width:1023px) {
+    
+#content .content-section {
+     padding: 64px 16px;
+
+}
+
+}
